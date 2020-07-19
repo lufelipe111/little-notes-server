@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {
+"compilerOptions": {
     "target": "es2017",                          
     "module": "commonjs",                     
     "lib": ["ES6"],                             
@@ -21,7 +21,10 @@
       "@controllers/*": ["./src/controllers/*"],
       "@models/*": ["./src/models/*"],
       "@views/*": ["./src/views/*"],
-      "@config/*": ["./src/config/*"],
+      "@config/*": ["./src/config/*"]
     }
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
